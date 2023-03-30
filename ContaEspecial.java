@@ -1,3 +1,5 @@
+import Bases.SistemaBanco;
+
 public class ContaEspecial extends SistemaBanco {
      protected double limite;
 

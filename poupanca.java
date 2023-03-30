@@ -1,3 +1,5 @@
+import Bases.SistemaBanco;
+
 public class poupanca extends SistemaBanco{
 
     protected int diaRend;

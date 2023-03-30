@@ -14,22 +14,13 @@ public class Contas {
         System.out.println("4- Consultar saldo");
     }
 
-    public static void dias() {
-        System.out.println("1-Domingo");
-        System.out.println("2-Segunda");
-        System.out.println("3-Terça");
-        System.out.println("4-Quarta");
-        System.out.println("5-Quinta");
-        System.out.println("6-Sexta");
-        System.out.println("7-Sábado");
-    }
 
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
         double aux;
         int tipo;
-        int op = 0, cont = 1;
+        int op = 0, cont = 1,diarend;
         int ag = 0, num = 0, cpf = 0;
         String nome = null, end = null;
         double saldo = 0, value;
@@ -56,7 +47,7 @@ public class Contas {
                         cpf = s.nextInt();
                         conta.setCpf(cpf);
                         System.out.println("Dia de rendimento:");
-                        poupanca.setDiaRend()
+                        poupanca.setDiaRend(diaRend);
                         System.out.println("Digite o saldo da sua conta:");
                         saldo = s.nextDouble();
                         conta.setSaldo(saldo);
