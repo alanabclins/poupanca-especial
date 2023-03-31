@@ -3,8 +3,7 @@ import Bases.SistemaBanco;
 public class ContaEspecial extends SistemaBanco {
      protected double limite;
 
-    public ContaEspecial(int agencia, int numDaConta, String nome, int cpf, String endereco, double saldo,
-            double limite) {
+    public ContaEspecial(int agencia, int numDaConta, String nome, int cpf, String endereco, double saldo) {
         super(agencia, numDaConta, nome, cpf, endereco, saldo);
         this.limite = 100;
     }

@@ -4,7 +4,7 @@ public class poupanca extends SistemaBanco{
 
     protected int diaRend;
     
-    public double atualiza (int rendimento){
+    public double atualiza (double rendimento){
         return this.saldo*rendimento;
     }
 
